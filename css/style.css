@@ -1,0 +1,954 @@
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 1064px;
+	margin: 0 auto;
+	padding: 0 40px;
+}
+
+.container:after {
+	display: block;
+	content: '';
+	clear: both;
+}
+
+.wrapper {
+	overflow: hidden;
+	min-width: 320px;
+}
+
+nav {
+	width: 100%;
+	background-color: #313B42;
+}
+
+.menu,
+#touch-menu {
+	font-family: "SegoeUIBold";
+	padding-top: 4%; 
+	padding-left: 40px;
+	overflow: hidden;
+	padding-bottom: 12px;
+}
+
+.nav-menu {
+	overflow: hidden;
+}
+
+.menu li {
+	float: left;
+}
+
+.menu li a,
+#touch-menu {
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin: 0 10px;
+	padding: 7px;
+	display: block;
+}
+
+#touch-menu {
+	text-align: center;
+	border: 2px solid #4BCAFF;
+	color: #4BCAFF;
+	width: 65px;
+	margin: 10px auto;
+	border-radius: 5px;
+	display: none;
+	background: #313B42;
+}
+
+.menu li a:hover {
+	border: 2px solid #4BCAFF;
+	color: #4BCAFF;
+}
+
+.logo {
+	cursor: pointer;
+	width: 56px;
+	height: 52px;
+	background: url(../img/stepbyhourse.png) no-repeat;
+	overflow: hidden;
+	float: left;
+	margin: 1.8% 0% 1.8% 17%;
+}
+
+.logo a {
+	width: 80px;
+	height: 50px;
+	display: block;
+}
+
+.header {
+	background: url(../img/chess.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.main-header {
+	font-size: 50px;
+	font-family: "SegoeUILight";
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+	margin-top: 70px
+}
+
+.main-header span {
+	font-family: "SegoeUISemiBold";
+}
+
+.first-text {
+	font-family: "SegoeUILight";
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+	margin-top: 45px;
+}
+
+.free-lesson {
+	color: #ff9900;
+	font-family: "SegoeUILight";
+	font-size: 24px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 300px;
+}
+
+.free-lesson span {
+	font-family: "SegoeUISemiBold";
+}
+
+.input1,
+.input2,
+.input3,
+.input4 {
+	width: 24%;
+	float: left;
+	padding-bottom: 70px;
+	/**/
+	width: 23.2%;
+	/**/
+}
+/**/
+.input1,
+.input2,
+.input3 {
+	margin-right: 1.6%;
+}
+/**/
+
+.input1 input,
+.input2 input,
+.input3 input {
+	width: 100%;
+	padding: 10px 10px 8px 10px;
+	font-size: 18px;
+	font-family: "SegoeUIRegular";
+	border: none;
+	border-bottom: 4px solid #E2E2E2;
+	border-radius: 2px;
+	margin-top: 12px;
+	/*margin-right: 10px;*/
+	color: #C4C4C4;
+}
+
+.input4 button {
+	background-color: #FF9900; 
+	font-size: 18px;
+	font-family: "SegoeUIRegular";
+	padding: 9px 35px;
+	border: none;
+	border-bottom: 4px solid #F07C2E;
+	border-radius: 2px;
+	margin-top: 67px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.input1 p,
+.input2 p,
+.input3 p {
+	color: #fff;
+	font-family: "SegoeUIRegular";
+	font-size: 18px;
+	margin-top: 37px;
+}
+
+.headhesive {
+	position: fixed;
+	opacity: .9;
+	z-index: 10000;
+}
+
+.inputs	{
+	overflow: hidden;
+	margin-left: 3%;
+}
+
+.advantages {
+	font-size: 30px;
+	font-family: "SegoeUILight";
+	text-transform: uppercase;
+	color: #fff;
+	padding-top: 61px;
+	letter-spacing: 1px;
+}
+
+.second-block {
+	background: #4BCAFF;
+}
+
+.some-paragraph {
+	font-size: 21px;
+	font-family: "SegoeUILight";
+	padding-top: 5px;
+	color: #fff;
+}
+
+.some-paragraph:after {
+	content: '';
+	display: block;
+	width: 45px;
+	height: 2px;
+	background: #fff;
+	margin: 16px 0 35px;
+} 
+
+.some-block {
+	width: 25%;
+	float: left;
+	color: #fff;
+	font-size: 13px;
+	font-family: "SegoeUIRegular";
+	line-height: 20px;
+	padding: 10px 20px 10px 0; 
+}
+
+.h2 {
+	font-size: 24px;
+	text-transform: uppercase;
+	font-family: "SegoeUISemiBold";
+	padding-bottom: 20px;
+}
+
+.sometext {
+	padding-bottom: 80px;
+}
+
+.icon1 {
+	width: 50px;
+	height: 55px;
+	background: url(../img/Shape1.png) no-repeat;
+	margin-bottom: 25px;
+}
+
+.icon2 {
+	width: 50px;
+	height: 55px;
+	background: url(../img/Shape2.png) no-repeat;
+	margin-bottom: 25px;
+}
+
+.icon3 {
+	width: 50px;
+	height: 55px;
+	background: url(../img/Shape3.png) no-repeat;
+	margin-bottom: 25px;
+}
+
+.icon4 {
+	width: 50px;
+	height: 55px;
+	background: url(../img/Shape4.png) no-repeat;
+	margin-bottom: 25px;
+}
+
+.third-block {
+	background: #fff;
+}
+
+.two {
+	color: #515F67;
+}
+
+.two-h2 {
+	color: #515F67;
+}
+
+.two-h2:after {
+	content: '';
+	display: block;
+	width: 45px;
+	height: 2px;
+	background: #515F67;
+	margin: 16px 0 35px;
+}
+
+.many-text {
+	font-size: 14px;
+	color: #515F67;
+	font-family: "SegoeUIRegular";
+	line-height: 25px;
+}
+
+.down {
+	padding-bottom: 150px;
+}
+.left-block {
+	width: 40%;
+	float: left;
+}
+
+.right-block {
+	width: 50%;
+	float: left;
+	margin: 70px 0 0 50px
+}
+
+.right-block:after {
+	display: block;
+	content: '';
+	clear: both;
+}
+
+.fourth-block {
+	background: #515F67;
+	overflow: hidden;
+}
+
+.advantages-down:after {
+	content: '';
+	display: block;
+	width: 45px;
+	height: 2px;
+	background: #fff;
+	margin: 6px 0 45px;
+}
+
+.advantages-down {
+	font-size: 30px;
+	font-family: "SegoeUILight";
+	text-transform: uppercase;
+	color: #fff;
+	padding-top: 61px;
+}
+.sergey,
+.igor {
+	width: 49%;
+	float: left;
+}
+
+.portret {
+	float: left;
+	margin: 0 30px 100px 0;
+}
+
+.text h3 {
+	color: #fff;
+	font-family: "SegoeUIRegular";
+	font-size: 16px
+}
+
+.text h4 {
+	color: #fff;
+	font-size: 24px;
+	text-transform: uppercase;
+	font-family: "SegoeUISemiBold";
+}
+
+.text p {
+	color: #fff;
+	font-size: 12px;
+	line-height: 18px;
+	margin: 15px 0 0 0;
+	font-family: "SegoeUIRegular";
+}
+
+.igor {
+	margin-left: 2%; 
+}
+
+.fifth-block {
+	background: #4BCAFF url(../img/crown.png) no-repeat 746px;
+	overflow: hidden;
+}
+
+.fifth-block img {
+	float: right;
+	margin: 3px 26px 150px 57px;
+	
+}
+
+.slick-slide img {
+	float: left;
+}
+
+/*Style for slide*/
+
+.sl {
+	width: 100%;
+	margin: 0 auto;	
+}
+
+.reviews {
+	font-size: 30px;
+	font-family: "SegoeUILight";
+	text-transform: uppercase;
+	color: #fff;
+	padding-top: 61px;
+}
+
+.reviews:after {
+	content: '';
+	display: block;
+	width: 45px;
+	height: 2px;
+	background: #fff;
+	margin: 6px 0 35px 0;
+}
+
+.description {
+	font-family: "SegoeUILight";
+	font-size: 24px;
+	line-height: 30px;
+	color: #fff;
+}
+
+.author {
+	font-family: "SegoeUISemiBold";
+	font-size: 12px;
+	color: #fff;
+	padding-top: 25px;
+}
+
+.slick-dots li button:before {
+	width: 10px;
+	height: 10px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+}
+
+.just-container {
+	margin-bottom: 80px;
+}
+
+/*ends style for slide*/
+
+.some-icon1,
+.some-icon2,
+.some-icon3,
+.some-icon4 {
+	float: left;
+	width: 25%;
+}
+
+.block-background1,
+.block-background2,
+.block-background3,
+.block-background4 {
+	width: 143px;
+	height: 120px;
+	margin: 25px auto;
+}
+
+.block-background1 {
+	background: url(../img/Shape2.1.png) no-repeat;
+}
+
+.block-background2 {
+	background: url(../img/Shape2.2.png) no-repeat;
+	width: 84px;
+}
+
+.block-background3 {
+	background: url(../img/Shape2.3.png) no-repeat;
+}
+.block-background4 {
+	background: url(../img/Shape2.4.png) no-repeat;
+	width: 87px;
+}
+
+.block-text {
+	width: 74%;
+	text-align: center;
+	margin: 0 auto;
+	font-family: "SegoeUIRegular";
+	font-size: 18px;
+	color: #4E4E46;
+	margin-top: 40px;
+	line-height: 24px;
+	padding-bottom: 145px;
+}
+
+.some-fix {
+	width: 80%;
+}
+
+.seventh-block {
+	background: #000 url(../img/chess-king.jpg) no-repeat 56%;
+	background-size: cover;
+}
+
+.block-with-header {
+	float: right;
+	width: 30%;
+	margin: 45px 245px 0; 
+}
+
+.clear:after {
+	display: block;
+	content: '';
+	clear: both;
+}
+
+.free-lesson-two {
+	margin: 0;
+	padding: 0;
+	line-height: 40px;
+}
+
+.free-lesson-two span {
+	font-size: 110%;
+	margin-left: 10px;
+}  
+
+.eighth-block {
+	background-color: #515F67;
+	overflow: hidden;
+}
+
+.name {
+	width: 100%;
+}
+
+.some-name, 
+.some-email,
+.some-textarea {
+	font-family: "SegoeUIBold";
+	font-size: 14px;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 5px 0 0px;
+	width: 50%;
+}
+
+.email-text {
+	padding-bottom: 15px;
+}
+
+.name-text p,
+.email-text p {
+	font-family: "SegoeUISemiBold";
+	font-size: 14px;
+	color: #fff;
+	text-transform: none;
+	line-height: 24px;
+	width: 88%;
+	padding: 0 0 0 20px;
+	margin: 0;
+}
+
+.name-input,
+.name-text,
+.email-input,
+.email-text {
+	width: 50%;
+	float: left;
+}
+
+.name-input input,
+.email-input input {
+	width: 94%;
+	background-color: #515F67;
+	border: none;
+	border: 2px solid #fff;
+	padding: 17px 0;
+	margin-top: 10px;
+	color: #fff;
+	font-size: 18px;
+  font-family: "SegoeUIRegular";
+  text-align: center;
+}
+
+.textarea textarea {
+	background-color: #515F67;
+	border: none;
+	border: 2px solid #fff;
+	width: 100%;
+	margin: 10px 0; 
+	color: #fff;
+	font-size: 18px;
+  font-family: "SegoeUIRegular";
+  padding: 30px;
+  max-width: 980px;
+  min-width: 320px;
+}
+
+.submit {
+	width: 370px;
+	background-color: #4BCAFF;
+	border: none;
+	padding: 17px 0;
+	margin: 25px 0 75px 0;
+	font-family: "SegoeUIBold";
+	font-size: 14px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+footer {
+	background-color: #1B242C;
+}
+
+.text1 {
+	float: left;
+}
+
+.text2 {
+	float: right;
+}
+
+.left,
+.right {
+	color: #515f67;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-family: "SegoeUISemiBold";
+	padding: 80px 0;
+}
+
+.right a {
+	color: #2284AD;
+	text-decoration: none;
+}
+
+.information {
+	overflow: hidden;
+}
+
+/* start media queries*/
+
+@media only screen and (max-width: 1024px) {
+	.logo {
+		margin: 25px 5px 25px 56px;
+	}
+	.menu li a {
+		font-size: 12px;
+	}
+	.menu {
+		padding-left: 28px;
+	}
+}
+@media only screen and (max-width: 780px) {
+	.menu li a {
+		font-size: 9px;
+	}
+	.menu {
+		padding-top: 40px;
+	}
+	.logo {
+		margin: 25px 5px 25px 25px;
+	}
+	.input4 button {
+		padding: 9px 10px;
+	}
+	.h2 {
+		font-size: 18px;
+	}
+	.right-block {
+		overflow: hidden;
+		margin: 123px 0 0 30px;
+		width: 55%;
+	}
+	.igor {
+		width: 48%;
+	}
+	.sergey {
+		width: 50%;
+	}
+	.portret img {
+		width: 100%;
+		margin-top: 25px;
+	}
+	.main-header {
+		font-size: 38px;
+	}
+	.portret {
+		width: 42%;
+		margin-bottom: 140px;
+	}
+	.fifth-block {
+		background: #4BCAFF url(../img/crown.png) no-repeat 226px;
+	}
+	.fifth-block img {
+		margin-bottom: 180px;
+	}
+	.author {
+		padding: 25px 0;
+	}
+	.block-with-header {
+		width: 40%;
+		margin-right: 83px;
+	}
+	.name-text p,
+	.email-text p {
+		width: 96%;
+		font-size: 12px;
+		line-height: 21px;
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 759px) {
+	.logo {
+		margin: 8px 5px 10px 60px;
+		background-size: 70% auto;
+		position: absolute;
+	}
+	#touch-menu {
+		display: block;
+	}
+	.menu li {
+		float: none;
+		text-align: center;
+	}
+	.menu li a {
+		font-size: 12px;
+	}
+	.menu {
+		display: none;
+		padding-top: 0;
+		padding-left: 0;
+	}
+	.menu li a:hover {
+		border: none;
+	}
+	.main-header {
+		font-size: 24px;
+		padding-top: 100px;
+	}
+	.first-text {
+		font-size: 18px;
+	}
+	.free-lesson {
+		font-size: 18px;
+		margin-top: 212px;
+	}
+	.inputs {
+		margin-left: 0;
+	}
+	.input1 p,
+	.input2 p,
+	.input3 p {
+		font-size: 12px;
+	}
+	.input1 input, .input2 input, .input3 input {
+		font-size: 10px;
+		width: 95%;
+	}
+	.input4 button {
+		font-size: 10px;
+		padding: 9px 3px;
+		width: 95%;
+		margin-top: 44px;
+	}
+	.input1, .input2, .input3, .input4 {
+		width: 48%;
+		padding-bottom: 0;
+	}
+	.input3 p {
+		margin-top: 20px;
+	}
+	.input3 {
+		margin-bottom: 120px;
+	}
+	.advantages {
+		font-size: 24px;
+	}
+	.some-paragraph {
+		font-size: 18px;
+	}
+	.some-block {
+		width: 100%
+	}
+	.sometext {
+		padding-bottom: 5px;
+	}
+	.fix-padding {
+		padding-bottom: 80px;
+	}
+	.left-block {
+		width: 100%
+	}
+	.many-text {
+		font-size: 12px;
+		text-align: justify;
+		line-height: 20px;
+	}
+	.down {
+		padding-bottom: 50px
+	}
+	.right-block {
+		width: 100%;
+		margin: 0;
+		background: url(../img/littleboy.jpg) no-repeat;
+		background-size: cover;
+		height: 200px;
+		margin-bottom: 70px;
+	}
+	.right-block img {
+		display: none;
+	}
+	.igor {
+		width: 100%;
+		margin-left: 0;
+	}
+	.sergey {
+		width: 100%;
+	}
+	.advantages-down {
+		font-size: 24px;
+	}
+	.portret {
+		width: 33%;
+	}
+	.text h3 {
+		font-size: 12px;
+	}
+	.text p {
+		font-size: 10px;
+		line-height: 15px;
+	}
+	.text h4 {
+		font-size: 18px;
+	}
+	.text {
+		margin-left: 10px;
+		margin-top: 20px;
+	}
+	.reviews {
+		font-size: 24px;
+	}
+	.slick-slide img {
+		width: 6%;
+	}
+	.fifth-block img {
+		 margin: 3px 26px 210px 10px;
+	}
+	.description {
+		font-size: 13px;
+		line-height: 18px;
+	}
+	.author {
+		font-size: 10px;
+	}
+	.some-icon1, .some-icon2, .some-icon3, .some-icon4 {
+		width: 100%;
+	}
+	.block-text {
+		padding-bottom: 70px;
+		font-size: 16px;
+	}
+	.block-with-header {
+		width: 100%;
+		margin: 0 auto;
+
+	}
+	.free-lesson-two {
+		line-height: 30px;
+		font-size: 22px;
+		margin-top: 80px;
+	}
+	.seventh-block {
+		background: #000 url(../img/chess-king.jpg) no-repeat 33%;
+		background-size: cover;
+	}
+	.name-input input, .email-input input {
+		padding: 5px 0;
+		width: 80%;
+	}
+	.name-text p, .email-text p {
+		line-height: 15px;
+		width: 110%;
+		padding: 0;
+	}
+	.textarea textarea {
+		font-size: 12px;
+		padding: 15px;
+		min-width: 0;
+		width: 100%
+	}
+	.name-input input, .email-input input {
+		font-size: 12px;
+	}
+	.submit {
+		width: 30%;
+		padding: 5px 0;
+		font-size: 10px;
+	}
+	.some-name, .some-email, .some-textarea {
+		font-size: 12px;
+	}
+	.text1,
+	.text2 {
+		float: none;
+	}
+	.left, .right {
+		padding: 0;
+		font-size: 10px;
+	}
+	.text1 {
+		padding-top: 20px;
+		padding-bottom: 10px;
+		text-align: center;
+	}
+	.text2 {
+		padding-bottom: 20px;
+		text-align: center;
+	}
+	.fifth-block {
+		background: #4BCAFF url(../img/crown.png) no-repeat 13px;
+		background-size: 90% auto;
+	}
+}
+
+@media only screen and (min-width: 1650px) {
+	.logo {
+		margin: 1.8% 0% 1.8% 22%;
+	}
+}
+
+@media only screen and (min-width: 1900px) {
+	.logo {
+		margin: 1.8% 0% 1.8% 27%;
+	}
+	.block-with-header {
+		margin: 45px 212px 0;
+	}
+	.menu, #touch-menu {
+		padding-top: 5%;
+	}
+	.fifth-block {
+		 background: #4BCAFF url(../img/crown.png) no-repeat 1054px;
+	}
+}
+
+@media only screen and (min-width: 2500px) {
+.logo {
+		margin: 1.8% 0% 1.8% 31%;
+	}
+	.menu, #touch-menu {
+		padding-top: 6%;
+	}
+	.fifth-block {
+	    background: #4BCAFF url(../img/crown.png) no-repeat 1454px;
+	}
+}
+	
+	
